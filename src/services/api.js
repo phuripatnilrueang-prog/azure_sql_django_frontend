@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://phuripat-backend-g5d5ezf4c2a3bah4.japanwest-01.azurewebsites.net/api',
-  // baseURL: 'http://127.0.0.1:8000/api', 
+  // baseURL: import.meta.env.VITE_API_URL || 'https://phuripat-backend-g5d5ezf4c2a3bah4.japanwest-01.azurewebsites.net/api',
+  baseURL: 'http://127.0.0.1:8000/api', 
   headers: {
     'Content-Type': 'application/json',
   },
